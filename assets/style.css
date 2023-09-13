@@ -16,6 +16,12 @@ style some divs
     color:seagreen;
     font-family: 'Exo 2', sans-serif;
 }
+h1 {
+    font-size:200%;
+}
+h2 {
+    font-size:150%;
+}
 
 header {
     display:block;
@@ -26,18 +32,29 @@ nav {
     justify-content:flex-end;
     flex-wrap: wrap;
 }
+
 ul {
     display:flex;
+    list-style: none;  
+}
+
+li {
+    padding:5px;
 }
 
 section, footer {
     display:flex;
     flex-direction:row;
+    padding: 15px;
 }
 
 .sectionName {
     width: 20%;
     font-family: 'Exo 2', sans-serif;
+    display:flex;
+    justify-content:flex-end;
+    padding: 5px;
+    border-right: 2px solid seagreen;
 }
 .sectionContent {
     display:flex;
@@ -45,8 +62,16 @@ section, footer {
     width: 80%;
 }
 
+.titleOfproject {
+    font-size:125%;
+    border:1px solid gray;
+    background-color: lightgray;
+    padding:5px;
+}
+
 .listContent {
     display:flex;
+    justify-content: space-between;
 }
 #project1 {
     width: 100%;
