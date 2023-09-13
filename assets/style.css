@@ -12,7 +12,7 @@ ul {
     display:flex;
 }
 
-section {
+section, footer{
     display:flex;
     flex-direction:row;
 }
@@ -24,7 +24,10 @@ section {
     display:flex;
     flex-wrap:wrap;
     width: 80%;
+}
 
+.listContent{
+    display:flex;
 }
 #project1 {
     width: 100%;
