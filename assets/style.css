@@ -1,1 +1,38 @@
 /* To do: make IDs #projects, #future-projects, #contact to make links work. */
+
+header {
+    display:block;
+}
+
+nav {
+    display:flex;
+    justify-content:flex-end;
+}
+ul {
+    display:flex;
+}
+
+section {
+    display:flex;
+    flex-direction:row;
+}
+
+.sectionName {
+    width: 20%;
+}
+.sectionContent {
+    display:flex;
+    flex-wrap:wrap;
+    width: 80%;
+
+}
+#project1 {
+    width: 100%;
+    padding:5px;
+
+}
+
+.additionalProjects{
+    width:45%;
+    padding:5px;
+}
