@@ -1,4 +1,21 @@
-/* To do: make IDs #projects, #future-projects, #contact to make links work. */
+/* 
+To do: 
+-make nav links work
+-do @media thing
+--re-position some divs
+style some divs
+-add picture of self
+-write readme
+
+
+*/
+
+* {
+    font-size:16px;
+    line-height: 1.5;
+    color:seagreen;
+    font-family: 'Exo 2', sans-serif;
+}
 
 header {
     display:block;
@@ -7,18 +24,20 @@ header {
 nav {
     display:flex;
     justify-content:flex-end;
+    flex-wrap: wrap;
 }
 ul {
     display:flex;
 }
 
-section, footer{
+section, footer {
     display:flex;
     flex-direction:row;
 }
 
 .sectionName {
     width: 20%;
+    font-family: 'Exo 2', sans-serif;
 }
 .sectionContent {
     display:flex;
@@ -26,7 +45,7 @@ section, footer{
     width: 80%;
 }
 
-.listContent{
+.listContent {
     display:flex;
 }
 #project1 {
@@ -35,7 +54,7 @@ section, footer{
 
 }
 
-.additionalProjects{
+.additionalProjects {
     width:45%;
     padding:5px;
 }
