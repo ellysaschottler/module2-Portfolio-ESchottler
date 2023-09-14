@@ -1,10 +1,8 @@
 /* 
 To do: 
--make nav links work
 -do @media thing
 --re-position some divs
 style some divs
--add picture of self
 -write readme
 
 
@@ -55,12 +53,6 @@ section, footer {
     position: relative;
 }
 
-img {
-    max-width: 95%;
-    height: auto;
-    width: auto;
-    border: 2px solid purple;
-}
 
 p {
     text-indent: 2em;
@@ -79,11 +71,22 @@ p {
     display:flex;
     flex-wrap:wrap;
     width: 80%;
+    align-items: center;
+}
+#About-text {
+    width:70%;
+}
+
+#About-img {
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .titleOfproject {
     font-size:125%;
-    border:1px solid gray;
+    border:2px solid gray;
     background-color: lightgray;
     padding:5px;
     max-width:50%;
@@ -107,3 +110,11 @@ p {
     padding:5px;
     
 }
+
+#project1 img, .additionalProjects img {
+    max-width: 95%;
+    height: auto;
+    width: auto;
+    border: 3px solid purple;
+}
+
