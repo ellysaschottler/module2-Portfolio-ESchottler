@@ -58,7 +58,7 @@ p {
     text-indent: 2em;
 }
 
-.sectionName {
+.section-name {
     width: 20%;
     font-family: 'Exo 2', sans-serif;
     display:flex;
@@ -67,24 +67,24 @@ p {
     border-right: 3px solid seagreen;
     margin-right: 5px;
 }
-.sectionContent {
+.section-content {
     display:flex;
     flex-wrap:wrap;
     width: 80%;
     align-items: center;
 }
-#About-text {
+#about-text {
     width:70%;
 }
 
-#About-img {
+#about-img {
     width:30%;
     display:flex;
     align-items:center;
     justify-content:center;
 }
 
-.titleOfproject {
+.title-of-project {
     font-size:125%;
     border:2px solid gray;
     background-color: lightgray;
@@ -95,7 +95,7 @@ p {
    
 }
 
-.listContent {
+.list-content {
     display:flex;
     justify-content: space-between;
 }
@@ -105,13 +105,13 @@ p {
     
 }
 
-.additionalProjects {
+.additional-projects {
     width:45%;
     padding:5px;
     
 }
 
-#project1 img, .additionalProjects img {
+#project1 img, .additional-projects img {
     max-width: 95%;
     height: auto;
     width: auto;
