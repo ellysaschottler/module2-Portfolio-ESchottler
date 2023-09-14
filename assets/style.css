@@ -1,8 +1,6 @@
 /* 
 To do: 
 -do @media thing
---re-position some divs
-style some divs
 -write readme
 
 
@@ -74,14 +72,23 @@ p {
     align-items: center;
 }
 #about-text {
-    width:70%;
+    width:75%;
 }
 
-#about-img {
-    width:30%;
+#about-image {
+    width:25%;
     display:flex;
     align-items:center;
     justify-content:center;
+}
+#about-image img {
+    border-radius:15px;
+    width:80%;
+    height:auto;
+    max-height:200px;
+    max-width:150px;
+    margin:5px;
+    padding-right:10px;
 }
 
 .title-of-project {
