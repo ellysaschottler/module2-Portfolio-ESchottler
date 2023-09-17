@@ -2,12 +2,13 @@
 To do: 
 -do @media thing
 -write readme
+-add hover event on image links
 
 
 */
 
 * {
-    font-size:16px;
+    font-size:16ems;
     line-height: 1.5;
     color:seagreen;
     font-family: 'Exo 2', sans-serif;
@@ -20,10 +21,14 @@ html {
 h1 {
     font-size:200%;
 }
+
 h2 {
     font-size:150%;
 }
 
+h3 {
+    font-size:115%;
+}
 header {
     display:block;
 }
@@ -51,7 +56,6 @@ section, footer {
     position: relative;
 }
 
-
 p {
     text-indent: 2em;
 }
@@ -65,12 +69,14 @@ p {
     border-right: 3px solid seagreen;
     margin-right: 5px;
 }
+
 .section-content {
     display:flex;
     flex-wrap:wrap;
     width: 80%;
     align-items: center;
 }
+
 #about-text {
     width:75%;
 }
@@ -81,6 +87,7 @@ p {
     align-items:center;
     justify-content:center;
 }
+
 #about-image img {
     border-radius:15px;
     width:80%;
@@ -91,37 +98,51 @@ p {
     padding-right:10px;
 }
 
-.title-of-project {
-    font-size:125%;
+.project-title {
     border:2px solid gray;
     background-color: lightgray;
     padding:5px;
     max-width:50%;
-    position: absolute;
+    position:absolute;
     margin: 20px;
-   
+    opacity: .95;
 }
 
 .list-content {
     display:flex;
     justify-content: space-between;
 }
+
 #project1 {
-    width: 100%;
-    padding:5px;
-    
+    width: 100%; 
+    position: relative;
 }
 
 .additional-projects {
-    width:45%;
-    padding:5px;
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+}
+
+.additional-projects a {
+    width:50%;
     
 }
 
 #project1 img, .additional-projects img {
-    max-width: 95%;
+    max-width: 100%;
     height: auto;
     width: auto;
     border: 3px solid purple;
 }
 
+/* Media Queries added to remove descriptions at mobile screen sizes */
+@media screen and (max-width:480px) {
+    .project-title p {display:none;}
+    h1 {font-size:175%;}
+    h2 {font-size:140%;}
+    h3 {font-size:100%;}
+    .additional-projects a {
+        width:80%;
+    }
+}
