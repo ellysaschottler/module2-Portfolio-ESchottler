@@ -17,7 +17,7 @@ View my portfolio website at: https://ellysaschottler.github.io/module2-Portfoli
 
 View my github repo for this website here: https://github.com/ellysaschottler/module2-Portfolio-ESchottler
 
-Screenshot of my work: ![Screenshot](Develop/assets/images/module1SC.png)
+Screenshot of my work: ![Screenshot](/assets/images/Screenshot-Module-2.png)
 
 ## Credits
 
