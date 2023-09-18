@@ -54,9 +54,14 @@ p {
     text-indent: 2em;
 }
 
+
+a {
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
 a:hover {
     background-color:rgb(237, 83, 237);
-    opacity: .8;
+    opacity: .85;
 
 }
 .section-name {
